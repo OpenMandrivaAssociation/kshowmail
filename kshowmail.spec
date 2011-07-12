@@ -1,7 +1,3 @@
-%define	name	kshowmail
-%define	version	4.1
-%define	release	%mkrel	1
-
 Name:		kshowmail
 Summary:	Show and delete mail on pop3 servers
 Version:	4.1
@@ -10,7 +6,6 @@ Url:		http://sourceforge.net/projects/kshowmail
 License:	GPLv2+
 Group:		Networking/Mail
 Source0:	%{name}-%{version}.tar.gz
-Provides:       %{name} = %{version}-%{release}
 
 BuildRequires:  kdelibs4-devel
 BuildRequires:  kdenetwork4-devel
@@ -30,10 +25,10 @@ can be deleted on the server. The information can be refreshed via timers.
 
 %install
 cd build
-%{makeinstall_std}
+%makeinstall_std
 kbuildsycoca4
 cd -
-%find_lang %name
+%find_lang %{name}
 
 %files -f %{name}.lang
 %{_bindir}/kshowmail
@@ -43,6 +38,3 @@ cd -
 %doc %{_docdir}/HTML/*/kshowmail/*
 %{_datadir}/icons/hicolor/*/apps/kshowmail.png
 %{_datadir}/kde4/services/kshowmailconfig*
-
-%clean
-
