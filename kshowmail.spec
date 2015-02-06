@@ -1,7 +1,7 @@
 Summary:	Show and delete mail on pop3 servers
 Name:		kshowmail
 Version:	4.1
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Networking/Mail
 Url:		http://sourceforge.net/projects/kshowmail
