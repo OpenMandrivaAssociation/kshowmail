@@ -4,7 +4,7 @@ Version:	4.1
 Release:	3
 License:	GPLv2+
 Group:		Networking/Mail
-Url:		http://sourceforge.net/projects/kshowmail
+Url:		https://sourceforge.net/projects/kshowmail
 Source0:	%{name}-%{version}.tar.gz
 BuildRequires:	kdelibs4-devel
 BuildRequires:	kdepimlibs4-devel
