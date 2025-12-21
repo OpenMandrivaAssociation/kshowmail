@@ -6,6 +6,7 @@ License:	GPLv2+
 Group:		Networking/Mail
 Url:		https://sourceforge.net/projects/kshowmail
 Source0:	%{name}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 BuildRequires:	kdepimlibs4-devel
 
